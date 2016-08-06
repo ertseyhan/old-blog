@@ -1,5 +1,5 @@
 # Blog settings
-permalink: /post/:title
+permalink: /yazi/:title
 
 # variables
 name: Ertuğrul Seyhan
