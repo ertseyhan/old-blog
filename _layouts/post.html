@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="post">
+    <a class="post__back" href="/">&lt;-- geri dön</a>
+    <h1 class="post__title">{{ page.title }}</h1>
+    <p class="post__date">
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%d" }}
+            {% case m %}
+                {% when '1' %}Ocak
+                {% when '2' %}Şubat
+                {% when '3' %}Mart
+                {% when '4' %}Nisan
+                {% when '5' %}Mayıs
+                {% when '6' %}Haziran
+                {% when '7' %}Temmuz
+                {% when '8' %}Ağustos
+                {% when '9' %}Eylül
+                {% when '10' %}Ekim
+                {% when '11' %}Kasım
+                {% when '12' %}Aralık
+            {% endcase %}
+        {{ page.date | date: "%Y" }}
+    </p>
+    <p class="post__meta">{{ tags_content }}</p>
+    <div class="post__content"?>
+        {{ content }}
+    </div>
+</div>
