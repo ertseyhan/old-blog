@@ -5,10 +5,11 @@ layout: default
 <div class="header">
     <h1>{{ site.name }}<h2>(a.k.a. ertseyhan)</h2></h1>
     <ul>
+        {% for item in site.data.navigation %}
         <li>
-            <a href="https://github.com/ertseyhan" target="_blank">github</a> / 
-            <a href="mailto:hi@ertugrulseyhan.com">e-posta</a>
+            <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
         </li>
+        {% endfor %}
     </ul>
 </div>
 <div class="portfolio">
