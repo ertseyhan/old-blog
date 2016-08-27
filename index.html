@@ -53,6 +53,10 @@ layout: default
     </ul>
 </div>
 
+<div class="lastedit">
+    Son güncelleme: {{ page.last_modified_at | date: '%-d/%-m/%Y' }} - {{ site.github.build_revision }}
+</div>
+
 <a href="{{ site.github.clone_url }}" class="github-corner">
     <svg width="85" height="85" viewBox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
