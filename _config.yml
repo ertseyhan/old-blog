@@ -15,7 +15,7 @@ sass:
 
 # Markdown
 markdown: kramdown
--kramdown:
+- kramdown:
 -  input: GFM
 -  hard_wrap: false
 highlighter: rouge
@@ -25,6 +25,9 @@ title: Ertuğrul Seyhan
 description: Kişisel ağ adresi
 url: https://ertugrulseyhan.com
 author: Ertuğrul Seyhan
+
+# Exclude files from the conversion
+- exclude: ["README.md", "LICENSE", "CNAME", "Gemfile", ".gitignore"]
 
 # Assets
 assets:
