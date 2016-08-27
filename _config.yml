@@ -23,5 +23,11 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
+# seo
+title: Ertuğrul Seyhan
+description: Kişisel ağ adresi
+url: https://ertugrulseyhan.com
+author: Ertuğrul Seyhan
+
 # Gems
-gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-last-modified-at']
+gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag']
