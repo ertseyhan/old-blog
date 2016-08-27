@@ -4,7 +4,7 @@ Made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 ### Task list
 
 - [x] Sitemap and RSS support
-- [ ] Serious syntax highlighting
+- [x] Better syntax highlighting
 - [x] Footer information to posts template
 - [x] Latest commit information with date & time
 

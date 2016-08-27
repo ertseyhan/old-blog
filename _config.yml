@@ -17,11 +17,8 @@ sass:
   sass_dir: sass
 
 # Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-highlighter: rouge
+markdown: redcarpet
+highlighter: pygments
 
 # seo
 title: Ertuğrul Seyhan
