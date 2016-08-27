@@ -30,4 +30,4 @@ url: https://ertugrulseyhan.com
 author: Ertuğrul Seyhan
 
 # Gems
-gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag']
+gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag', 'jekyll-mentions']
