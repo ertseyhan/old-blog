@@ -1,15 +1,11 @@
-# Blog settings
+# Settings
 permalink: /yazi/:title
 
-# variables
+# Variables
 name: Ertuğrul Seyhan
 description: Kişisel ağ adresi
 repository: ertseyhan/ertseyhan.github.io
 google_verification: oW8Wn02yQ5olETUp4idytJrq0lCibvXnF8szGAMeCAI
-
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
 
 # Sass
 sass:
@@ -23,13 +19,13 @@ markdown: kramdown
 -  hard_wrap: false
 highlighter: rouge
 
-# seo
+# Seo
 title: Ertuğrul Seyhan
 description: Kişisel ağ adresi
 url: https://ertugrulseyhan.com
 author: Ertuğrul Seyhan
 
-# assets
+# Assets
 assets:
   compress:
     css:  sass

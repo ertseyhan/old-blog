@@ -1,6 +1,3 @@
----
----
-
 @import "config", "font", "reset", "syntax";
 
 body {
@@ -10,13 +7,16 @@ body {
 	font-size: 100%;
 	font-weight: 400;
 }
+
 h1 {
 	margin-bottom: 5px;
 }
+
 p {
 	font-size: 1em;
 	line-height: 150%;
 }
+
 a {
   color: $color-link;
   text-decoration: none;
@@ -33,6 +33,7 @@ a {
 	text-decoration: none;
   }
 }
+
 ul {
 	list-style: none;
 	li {
@@ -80,6 +81,10 @@ ul {
 		font-size: 2em;
 		margin-bottom: 0;
 	}
+	h2 {
+		font-size: 0.9em;
+		padding-right: 100px;
+	}
 	ul {
 		margin-top: 10px;
 		li {
@@ -90,7 +95,7 @@ ul {
 	}
 }
 
-.portfolio {
+.about {
 	padding-bottom: 30px;
 	h1 {
 		font-size: 1.4em;
