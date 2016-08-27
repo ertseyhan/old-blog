@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
 gem 'jekyll'
+gem 'jekyll-feed'
 gem 'jekyll-sitemap'
+gem 'jekyll-github-metadata'
+gem 'jekyll-last-modified-at'

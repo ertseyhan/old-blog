@@ -4,6 +4,7 @@ permalink: /yazi/:title
 # variables
 name: Ertuğrul Seyhan
 description: Kişisel ağ adresi
+repository: ertseyhan/ertseyhan.github.io
 google_verification: oW8Wn02yQ5olETUp4idytJrq0lCibvXnF8szGAMeCAI
 
 # File management
@@ -21,3 +22,6 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
+
+# Gems
+gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-last-modified-at']
