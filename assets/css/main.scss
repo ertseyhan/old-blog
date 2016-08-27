@@ -45,6 +45,19 @@ ul {
 	}
 }
 
+.date {
+	ul {
+		list-style: none;
+		li {
+			padding: 5px;
+			padding-left: 10px;
+			color: $color-date;
+			@media screen and (max-width: $br) {
+				padding: 10px 0 10px 0;
+			}
+		}
+	}
+}
 
 .wrapper {
 	max-width: 600px;
