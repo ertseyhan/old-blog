@@ -32,7 +32,7 @@ author: Ertuğrul Seyhan
 # assets
 assets:
   compress:
-    css:  true
+    css:  sass
 
 # Gems
 gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag', 'jekyll-mentions', 'jekyll-assets']
