@@ -1,11 +1,13 @@
 # Settings
-permalink: /yazi/:title
 github_ribbon: true
+enable_disqus: false
 
 # Variables
 name: Ertuğrul Seyhan
 description: Kişisel ağ adresi
+permalink: /yazi/:title
 repository: ertseyhan/ertseyhan.github.io
+disqus_username: ertugrulseyhan
 google_verification: oW8Wn02yQ5olETUp4idytJrq0lCibvXnF8szGAMeCAI
 
 # Sass

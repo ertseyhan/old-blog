@@ -39,4 +39,8 @@ layout: default
             </p>
         </div>
     </div>
+
+    {% if site.enable_disqus == true %}
+        {% include disqus.html %}
+    {% endif %}
 </div>
