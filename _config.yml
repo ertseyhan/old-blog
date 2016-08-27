@@ -29,5 +29,10 @@ description: Kişisel ağ adresi
 url: https://ertugrulseyhan.com
 author: Ertuğrul Seyhan
 
+# assets
+assets:
+  compress:
+    css:  true
+
 # Gems
-gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag', 'jekyll-mentions']
+gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag', 'jekyll-mentions', 'jekyll-assets']
