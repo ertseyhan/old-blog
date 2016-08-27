@@ -56,7 +56,7 @@ layout: default
 </div>
 
 <div class="lastedit">
-    Son güncelleme: {{ site.github.build_revision }}
+    Son güncelleme: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision }}</a>
 </div>
 
 {% if site.github_ribbon == true %}
