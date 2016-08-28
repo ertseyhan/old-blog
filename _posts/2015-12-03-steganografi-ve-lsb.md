@@ -30,9 +30,11 @@ Resim içerisinde veri gizlerken en çok kullanılan yöntem resmi oluşturan pi
 
 ![](/assets/img/2015/lsbits.jpg)
 
-Kaynaklar  
+<div class="post__sources" markdown="1">
+**Kaynaklar**  
 1. [http://ab.org.tr/ab13/bildiri/59.pdf](http://ab.org.tr/ab13/bildiri/59.pdf)  
 2. [http://bilgisayarkavramlari.sadievrenseker.com/2009/06/05/steganografi-ve-lsb/](http://bilgisayarkavramlari.sadievrenseker.com/2009/06/05/steganografi-ve-lsb/)  
 3. [http://web.itu.edu.tr/~orssi/thesis/2008/BetulElci_bit.pdf](http://web.itu.edu.tr/~orssi/thesis/2008/BetulElci_bit.pdf)  
 4. [https://tr.scribd.com/doc/48764974/31/VISUAL-C](https://tr.scribd.com/doc/48764974/31/VISUAL-C)  
-5. [https://lvee.org/en/abstracts/106](https://lvee.org/en/abstracts/106)  
+5. [https://lvee.org/en/abstracts/106](https://lvee.org/en/abstracts/106)
+</div>
