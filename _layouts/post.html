@@ -26,16 +26,12 @@ layout: default
     <a class="post__back" href="/">&lt;-- geri dön</a>
     <h1 class="post__title">{{ page.title }}</h1>
 
-    <p class="post__date">
-        {{ formatted_date }}
-    </p>
-
-    <div class="post__reading-time">
+    <div class="post__date">
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
-            Bu yazının ortalama okunma süresi bir dakikadan daha az
+            {{ formatted_date }} tarihinde paylaşılan bu yazının ortalama okunma süresi bir dakikadan daha az.
         {% else %}
-            Bu yazıyı ortalama {{ words | divided_by:180 }} dakikada okuyabilirsiniz
+            {{ formatted_date }} tarihinde paylaşılan bu yazıyı ortalama {{ words | divided_by:180 }} dakikada okuyabilirsiniz.
         {% endif %}
     </div>
 
@@ -46,7 +42,7 @@ layout: default
 
     <div class="footer">
         <br>
-            Ertuğrul Seyhan tarafından {{ formatted_date }} tarihinde yazıldı.
+            {{ site.author.name }} tarafından {{ formatted_date }} tarihinde yazıldı.
         </br>
 
         <div class="share">
