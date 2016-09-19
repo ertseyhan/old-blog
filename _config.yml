@@ -8,6 +8,7 @@ description: Kişisel ağ adresi
 permalink: /yazi/:title
 repository: ertseyhan/ertseyhan.github.io
 disqus_username: ertugrulseyhan
+google_analytics: UA-68370004-1
 google_verification: oW8Wn02yQ5olETUp4idytJrq0lCibvXnF8szGAMeCAI
 
 # Sass
