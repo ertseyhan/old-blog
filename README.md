@@ -8,7 +8,7 @@ Made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 - [x] Footer information to posts template
 - [x] Google Analytics and Site Verification
 - [x] Latest commit information with date & time
-- [ ] Estimated reading time on top of posts
+- [x] Estimated reading time on top of posts
 - [ ] CSS3 Animations between switching pages
 - [ ] Pagination and infinite scroll support
 - [ ] Rakefile for making life easier

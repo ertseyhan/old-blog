@@ -124,6 +124,12 @@ ul {
 	}
 	&__date {
 		font-size: 1em;
+  		color: #666;
+		font-style: italic;
+  	}
+	&__reading-time {
+		font-size: 1em;
+  		color: #666;
 		font-style: italic;
 	}
 	&__sources {

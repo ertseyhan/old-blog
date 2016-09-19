@@ -30,6 +30,15 @@ layout: default
         {{ formatted_date }}
     </p>
 
+    <div class="post__reading-time">
+        {% assign words = content | number_of_words %}
+        {% if words < 360 %}
+            Bu yazının ortalama okunma süresi bir dakikadan daha az
+        {% else %}
+            Bu yazıyı ortalama {{ words | divided_by:180 }} dakikada okuyabilirsiniz
+        {% endif %}
+    </div>
+
     <p class="post__meta">{{ tags_content }}</p>
     <div class="post__content"?>
         {{ content }}
