@@ -7,6 +7,9 @@ Made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 - [x] Better syntax highlighting
 - [x] Footer information to posts template
 - [x] Latest commit information with date & time
+- [ ] CSS3 Animations between switching pages
+- [ ] Pagination and infinite scroll support
+- [ ] Rakefile for making life easier
 
 > At this moment I can fetch latest commit information from the repository but however github pages doesn't allow me to fetch date & time for now. See: [#32](https://github.com/gjtorikian/jekyll-last-modified-at/issues/32)
 
