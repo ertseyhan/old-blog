@@ -1,41 +1,47 @@
-# Settings
+# Setup
+title: Ertuğrul Seyhan
+description: Kişisel ağ adresi
+permalink: /yazi/:title
+url: https://ertugrulseyhan.com
+
+author:
+  name: Ertuğrul Seyhan
+  url: https://github.com/ertseyhan
+  email: contact@ertugrulseyhan.com
+
+# Custom variables
 github_ribbon: true
 enable_disqus: false
 
 # Variables
-name: Ertuğrul Seyhan
-description: Kişisel ağ adresi
-permalink: /yazi/:title
-repository: ertseyhan/ertseyhan.github.io
 disqus_username: ertugrulseyhan
 google_analytics: UA-68370004-1
 google_verification: oW8Wn02yQ5olETUp4idytJrq0lCibvXnF8szGAMeCAI
+blog_repository: ertseyhan/ertseyhan.github.io
 
-# Sass
-sass:
-  style: compressed
-  sass_dir: sass
-
-# Markdown
+# Dependencies
 markdown: kramdown
--kramdown:
--  input: GFM
--  hard_wrap: false
 highlighter: rouge
 
-# Seo
-title: Ertuğrul Seyhan
-description: Kişisel ağ adresi
-url: https://ertugrulseyhan.com
-author: Ertuğrul Seyhan
+sass:
+  sass_dir: sass
+  compressed: true
 
-# Exclude files from the conversion
--exclude: ["README.md", "LICENSE", "CNAME", "Gemfile", ".gitignore"]
-
-# Assets
 assets:
   compress:
     css: sass
 
-# Gems
-gems: ['jekyll-feed', 'jekyll-sitemap', 'jekyll-github-metadata', 'jekyll-seo-tag', 'jekyll-mentions', 'jekyll-assets']
+exclude:
+  - CNAME
+  - Gemfile
+  - LICENSE
+  - README.md
+  - .gitignore
+
+gems:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-github-metadata
