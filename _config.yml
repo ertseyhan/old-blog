@@ -11,7 +11,7 @@ author:
 
 # Custom variables
 github_ribbon: false
-menu_icons: true
+show_icons: true
 enable_disqus: false
 
 # Variables
