@@ -1,7 +1,11 @@
-- title: e-posta
-  icon: fa-envelope-o
-  url: mailto:contact@ertugrulseyhan.com
-
 - title: pgp
   icon: fa-key
   url: https://keybase.io/ertseyhan
+
+- title: github
+  icon: fa-github
+  url: https://github.com/ertseyhan
+
+- title: e-posta
+  icon: fa-envelope-o
+  url: mailto:contact@ertugrulseyhan.com
