@@ -10,7 +10,7 @@ Made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 - [x] Latest commit information with date & time
 - [x] Estimated reading time on top of posts
 - [x] Rakefile for making life easier
-- [ ] Use FontAwesome icons only in navigation section
+- [x] Use FontAwesome icons only in navigation section
 - [ ] CSS3 Animations between switching pages
 - [ ] Pagination and infinite scroll support
 
