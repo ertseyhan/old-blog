@@ -8,7 +8,7 @@ layout: default
         {% for item in site.data.navigation %}
         <li>
             {% if site.menu_icons == true %}
-                <a href="{{ item.url }}" target="_blank"><i class='fa {{ item.icon }}'></i></a>
+                <a href="{{ item.url }}" target="_blank"><i class='fa {{ item.icon }}' style="color:black"></i></a>
             {% else %}
                 <a href="{{ item.url }}" target="_blank"></i>{{ item.title }}</a>
             {% endif %}
