@@ -50,9 +50,11 @@ layout: default
     </div>
 </div>
 
-<div class="lastedit">
-    Son güncelleme: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision }}</a>
-</div>
+{% if site.git_lastedit == true %}
+    <div class="lastedit">
+        Son güncelleme: <a href="{{ site.github.repository_url }}/commit/{{ site.github.build_revision }}">{{ site.github.build_revision }}</a>
+    </div>
+{% endif %}
 
 {% if site.github_ribbon == true %}
     {% include ribbon.html %}

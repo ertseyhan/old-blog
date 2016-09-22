@@ -1,7 +1,8 @@
 ---
+# Needed for Jekyll
 ---
 
-@import "config", "font", "reset", "syntax";
+@import "font", "reset", "config", "syntax", "animate";
 
 body {
 	color: $color-black;

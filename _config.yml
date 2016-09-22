@@ -10,8 +10,10 @@ author:
   email: contact@ertugrulseyhan.com
 
 # Custom variables
-github_ribbon: false
+animations: true
 show_icons: true
+git_lastedit: false
+github_ribbon: false
 enable_disqus: false
 
 # Variables
