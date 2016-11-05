@@ -1,7 +1,7 @@
 ---
 layout: post
 encoding: utf-8
-title: Steganografi ve LSB
+title: Steganografi ve LSB Algoritması
 ---
 
 Steganografi, içinde gizli mesaj veya bilgiler bulunan bir veriyi, alıcıdan başka kimsenin fark edemeyeceği bir biçimde gönderme sanatıdır. Buradaki amaç, iletilmek istenen bilgiyi ve bu bilginin varlığını başkalarının fark etmesini engelleyebilecek kadar iyi saklamaktır. İçerisinde gizlenmiş bilgiler barındıran bir veriye herhangi birisi ulaşabilse dahi bu verideki Steganografi işlemini fark edebilmeli ve güvenlik yöntemleri ve seviyelerine bağlı olan anahtar bilgiye de sahip olmalıdır.
