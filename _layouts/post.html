@@ -29,7 +29,7 @@ layout: default
     <div class="post__date">
         {% assign words = content | number_of_words %}
         {% if words < 360 %}
-            {{ formatted_date }} tarihinde paylaşılan bu yazının ortalama okunma süresi bir dakikadan daha az.
+            {{ formatted_date }} tarihinde paylaşılan bu yazı bir dakikadan az bir sürede okunabilir.
         {% else %}
             {{ formatted_date }} tarihinde paylaşılan bu yazıyı ortalama {{ words | divided_by:180 }} dakikada okuyabilirsiniz.
         {% endif %}
